@@ -1,14 +1,84 @@
+<!--
+Project: Tutorial Webpage
+
+  Overview:  Using HTML & CSS, build an informative webpage about functions, objects, and arrays.  
+
+Requirements:
+
+Structure:
+Webpage must contain the following elements:
+<header>
+<nav>
+<section>
+<a>
+<footer>
+<article>
+<sidebar>
+Must make use of at least one CSS pseudo-class ( :hover for example)
+Must have separate CSS and HTML files connected through a <link> tag
+Links in <nav> need to be able to direct users to the matching topic sections
+Must have body content informing the user about topics listed below
+Must make use of at least one AnimateCSS  (Links to an external site.)Links to an external site.animation
+Must have at least 3 educational programming links on the site - these links should open in a new tab
+ 
+Content:
+You must include and describe at least 3 of the following 5 concepts within your webpage:
+Functions
+Objects
+Arrays
+For Loops
+Conditionals
+-->
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link href="main.css" rel="stylesheet" type="text/css"/>
-  <title>Sample Page for Deployment!</title>
+  <title>Javascript Terms</title>
+  <link rel="stylesheet" type="text/css" href="main.css">
 </head>
-<body>
-  <div class="box"></div>
-  <p>This is a deployment page!</p>
+
+<body class="wrapper">
+
+  <section>
+    <h1>Javascript</h1>
+    <p>JavaScript is a dynamic computer programming language most commonly used as a part of web pages, whose implementations allow client-side script to interact with the user and make dynamic pages.</p>
+  </section>
+
+  <section>
+    <h3>Functions</h3>
+    <p>A function is a subprogram designed to perform a particular task.</p>
+    <ul>
+      <li>Functions are executed when they are called.</li>
+      <li>Values can be passed into functions and used within the function.</li>
+      <li>Functions always return a value. If no return value is specified, the function will return undefined.</li>
+      <li>Functions are objects.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h3>Objects</h3>
+    <p>Objects allow you to store keyed collections of values.</p>
+    <ul>
+      <li>An unordered collection of related data, of primitive or reference types, in the form of “key: value” pairs.
+      </li>
+      <li>These keys can be variables or functions and are called properties and methods, respectively, in the context
+        of an object.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h3>Arrays</h3>
+    <p>An array is a single variable that is used to store different elements.</p>
+    <ul>
+      <li>An array is an ordered collection of values</li>
+      <li>each value is called an element</li>
+      <li>each element has a numeric position in the array, known as its index</li>
+    </ul>
+  </section>
+
 </body>
 </html>
